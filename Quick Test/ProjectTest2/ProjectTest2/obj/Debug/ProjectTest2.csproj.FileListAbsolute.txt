@@ -1,0 +1,6 @@
+C:\RPP REVIEW APPLICATION\Quick Test\ProjectTest2\ProjectTest2\bin\Debug\ProjectTest2.exe.config
+C:\RPP REVIEW APPLICATION\Quick Test\ProjectTest2\ProjectTest2\obj\Debug\ProjectTest2.csprojResolveAssemblyReference.cache
+C:\RPP REVIEW APPLICATION\Quick Test\ProjectTest2\ProjectTest2\bin\Debug\ProjectTest2.exe
+C:\RPP REVIEW APPLICATION\Quick Test\ProjectTest2\ProjectTest2\bin\Debug\ProjectTest2.pdb
+C:\RPP REVIEW APPLICATION\Quick Test\ProjectTest2\ProjectTest2\obj\Debug\ProjectTest2.exe
+C:\RPP REVIEW APPLICATION\Quick Test\ProjectTest2\ProjectTest2\obj\Debug\ProjectTest2.pdb

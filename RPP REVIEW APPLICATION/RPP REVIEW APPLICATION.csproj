@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5A839D12-510F-4B9D-BE82-F2B1BEA35C3D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RPP_REVIEW_APPLICATION</RootNamespace>
+    <AssemblyName>RPP REVIEW APPLICATION</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CIT_EDT Computation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CIT_EDT Computation.Designer.cs">
+      <DependentUpon>CIT_EDT Computation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComputationClass.cs" />
+    <Compile Include="GENERAL DATA CAPTURE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GENERAL DATA CAPTURE.Designer.cs">
+      <DependentUpon>GENERAL DATA CAPTURE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General_Templat6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General_Templat6.Designer.cs">
+      <DependentUpon>General_Templat6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General_Template.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General_Template.Designer.cs">
+      <DependentUpon>General_Template.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General_Template2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General_Template2.Designer.cs">
+      <DependentUpon>General_Template2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General_Template3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General_Template3.Designer.cs">
+      <DependentUpon>General_Template3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General_Template4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General_Template4.Designer.cs">
+      <DependentUpon>General_Template4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General_Template5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General_Template5.Designer.cs">
+      <DependentUpon>General_Template5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs" />
+    <Compile Include="MinimumTax.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MinimumTax.Designer.cs">
+      <DependentUpon>MinimumTax.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minimum_Tax.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minimum_Tax.Designer.cs">
+      <DependentUpon>Minimum_Tax.cs</DependentUpon>
+    </Compile>
+    <Compile Include="New Field.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Field.Designer.cs">
+      <DependentUpon>New Field.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="STATEMENT OF TAX POSITION FORM 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STATEMENT OF TAX POSITION FORM 2.Designer.cs">
+      <DependentUpon>STATEMENT OF TAX POSITION FORM 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STATEMENT OF TAX POSITION FORM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STATEMENT OF TAX POSITION FORM.Designer.cs">
+      <DependentUpon>STATEMENT OF TAX POSITION FORM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WHT_STATEMENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WHT_STATEMENT.Designer.cs">
+      <DependentUpon>WHT_STATEMENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TestControl.Designer.cs">
+      <DependentUpon>TestControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VAT COMPUTATION.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VAT COMPUTATION.Designer.cs">
+      <DependentUpon>VAT COMPUTATION.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CIT_EDT Computation.resx">
+      <DependentUpon>CIT_EDT Computation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GENERAL DATA CAPTURE.resx">
+      <DependentUpon>GENERAL DATA CAPTURE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General_Templat6.resx">
+      <DependentUpon>General_Templat6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General_Template.resx">
+      <DependentUpon>General_Template.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General_Template2.resx">
+      <DependentUpon>General_Template2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General_Template3.resx">
+      <DependentUpon>General_Template3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General_Template4.resx">
+      <DependentUpon>General_Template4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General_Template5.resx">
+      <DependentUpon>General_Template5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MinimumTax.resx">
+      <DependentUpon>MinimumTax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minimum_Tax.resx">
+      <DependentUpon>Minimum_Tax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Field.resx">
+      <DependentUpon>New Field.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="STATEMENT OF TAX POSITION FORM 2.resx">
+      <DependentUpon>STATEMENT OF TAX POSITION FORM 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STATEMENT OF TAX POSITION FORM.resx">
+      <DependentUpon>STATEMENT OF TAX POSITION FORM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WHT_STATEMENT.resx">
+      <DependentUpon>WHT_STATEMENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestControl.resx">
+      <DependentUpon>TestControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VAT COMPUTATION.resx">
+      <DependentUpon>VAT COMPUTATION.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\GENERAL_DATA_CAPTURE.datasource" />
+    <None Include="Properties\DataSources\General_Templat6.datasource" />
+    <None Include="Properties\DataSources\General_Template.datasource" />
+    <None Include="Properties\DataSources\General_Template2.datasource" />
+    <None Include="Properties\DataSources\General_Template3.datasource" />
+    <None Include="Properties\DataSources\General_Template4.datasource" />
+    <None Include="Properties\DataSources\General_Template5.datasource" />
+    <None Include="Properties\DataSources\Main.datasource" />
+    <None Include="Properties\DataSources\Minimum_Tax.datasource" />
+    <None Include="Properties\DataSources\Permanent_Note_Jacket_Information.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\DataSources\RPP_Class.datasource" />
+    <None Include="Properties\DataSources\RPP_REVIEW_APPLICATION.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\RPP_REVIEW_APPLICATION.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\TestControl.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
